@@ -9,7 +9,7 @@ public class Hashset {
         Logger logger = Logger.getLogger("com.api.jar");
         Scanner sc = new Scanner(System.in);
         int choice;
-        HashSet<String> set = new HashSet();
+        HashSet<String> set = new HashSet<>();
         while (true){
             logger.info("1. Add \n2. Remove \n3. Print \n4.Exit");
             logger.info("Enter your choice");

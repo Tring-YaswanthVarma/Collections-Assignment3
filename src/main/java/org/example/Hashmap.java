@@ -13,7 +13,6 @@ public class Hashmap {
         String s;
         String key;
         String value;
-        boolean mapElement;
         while (true){
             logger.info("1. Add \n2. Remove \n3. Print \n4. Exit");
             logger.info("Enter your choice : ");
